@@ -1,0 +1,29 @@
+nav > ul> li{
+    display: inline;
+    margin: 15px;
+}
+nav li > a{
+    text-decoration: none;
+    color: chartreuse;
+}
+footer{
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+    font-size: large;
+}
+label{
+    display: block;
+    margin: 10px;
+}
+fieldset{
+    width: 20%;
+}
+table{
+    border-collapse: collapse ;
+}
+td, th{
+    border: 2px solid blueviolet;
+    padding: 5px 10px;
+}

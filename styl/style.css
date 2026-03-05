@@ -19,7 +19,16 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd166;
+    color: #d7e11a;
+}
+#you:hover{
+color: red;
+}
+#ig:hover{
+    color: rgb(188, 20, 138);
+}
+#fb:hover{
+    color: blue;
 }
 
 .hero {
@@ -29,6 +38,7 @@ nav a:hover {
     text-align: center;
     padding-top: 150px;
 }
+
 
 .hero h2 {
     font-size: 40px;

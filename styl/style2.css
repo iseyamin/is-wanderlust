@@ -6,24 +6,50 @@ nav li > a{
     text-decoration: none;
     color: chartreuse;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background: linear-gradient(to right, #1e3c2f, #2b7a78);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d7e11a;
+}
 footer{
     text-align: center;
 }
+#fh{
+    
+  display: block;
+  margin: auto;
+  width: 70%;
+}
 figcaption {
     text-align: center;
-    font-size: large;
+    font-size: medium;
 }
-label{
-    display: block;
-    margin: 10px;
+
+div figcaption{
+    text-align: justify;
+    font-size: small;
 }
-fieldset{
-    width: 20%;
+.pictures{
+    display: flex;
 }
-table{
-    border-collapse: collapse ;
-}
-td, th{
-    border: 2px solid blueviolet;
-    padding: 5px 10px;
+footer {
+    background-color: #1e3c2f;
+    color: white;
+    padding: 10px;
 }
